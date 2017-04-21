@@ -1,6 +1,7 @@
 header{
   background: #F50319;
   padding: 21px;
+  font-family: "Roboto";
 }
 .container{
   margin-left: 200px;
@@ -22,6 +23,7 @@ header{
 .icon{
   display: inline-block;
   margin: 5px;
+  padding-top: 4px;
   text-align: center;
 	width: 50px;
 	height: 50px;
@@ -34,21 +36,23 @@ header{
 .search{
   display: inline-block;
   text-align: center;
-  margin-left: 100px
+  margin-left: 100px;
   width: 120px;
 	height: 50px;
-	background: red;
-	-moz-border-radius: 100px / 50px;
-	-webkit-border-radius: 100px / 50px;
-	border-radius: 100px / 50px;
+	-moz-border-radius: 80px / 50px;
+	-webkit-border-radius: 80px / 50px;
+	border-radius: 80px / 50px;
+  border-color: #fdfcfc;
 }
 .text{
   margin: 10px;
+  color: white;
 }
 
 nav{
-  background: #817C7D;
-
+  background: #696969;
+  padding: 2px;
+  font-family: "Roboto";
 }
 ul{
   margin-left: 200px;
@@ -65,4 +69,5 @@ li{
 }
 a{
   color: white;
+  text-decoration: none;
 }
